@@ -1,0 +1,87 @@
+.main {
+    max-width: 500px;
+    margin: 50px auto;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+span {
+    color: cadetblue;
+}
+
+form{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.input {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    ;
+}
+
+.btnGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    border: transparent;
+    background-color: cadetblue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover,
+.btn:active {
+    color: white;
+    background-color: rgb(3, 50, 52)
+}
+
+.errormsg {
+    color: red;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+
+}
+
+.userDetails {
+    background: white;
+    border-radius: 10px;
+    max-width: 80%;
+    padding: 50px;
+    text-align: center;
+}
+
+.userDetails p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

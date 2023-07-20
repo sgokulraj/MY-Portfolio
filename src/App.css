@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.homeComponent {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.headContainer {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  object-fit: contain;
+}
+
+.navbar h1 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.underline {
+  width: 100px;
+  height: 5px;
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ul li {
+  list-style-type: none;
+
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(53, 52, 52);
+}
+
+.link:hover,
+.link:active {
+  color: cadetblue;
+}
+
+li {
+  text-transform: uppercase;
+}
+
+.home {
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 50px;
+  line-height: 40px;
+}
+
+.home h1 {
+  margin-bottom: 10px;
+}
+
+.home p {
+  text-align: justify;
+}
+
+.icons {
+  margin: 20px;
+  margin-left: 0;
+}
+
+.icons p {
+  margin: 10px;
+  margin-left: 0;
+}
+
+.icons a {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.linkedin {
+  color: #0A66C2;
+}
+
+.github {
+  color: #000;
+}
+
+.download {
+  display: flex;
+}
+
+.resume {
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: -3px;
+}
+
+.email {
+  display: inline;
+  color: navy;
+  font-size: 20px;
+  margin-bottom: -5px;
+}
